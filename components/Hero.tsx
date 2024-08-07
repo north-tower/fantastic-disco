@@ -15,9 +15,10 @@ function Hero() {
               <p className="text-lg text-white">Based in Kenya.Operate worldwide</p>
 
             
-              <p className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-4xl 
+              <p className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-xl 
               font-extrabold text-transparent sm:text-6xl">Empower your business
 with top-class software development</p>
+</div>
             <div className="mt-10 flex flex-col items-center md:flex-row">
               <a href="/" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-blue-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-blue-800">Stream Now </a>
               <a href="/" aria-label="" className="underline-offset-2 inline-flex items-center font-semibold text-blue-600 underline transition-colors duration-200 hover:underline">Watch how it works</a>
