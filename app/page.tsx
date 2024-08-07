@@ -5,8 +5,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main >
-     <Header />
-     <Hero />
+      <section>  <Header /></section>
+   <section>
+
+   <Hero />
+
+   </section>
     </main>
   );
 }
