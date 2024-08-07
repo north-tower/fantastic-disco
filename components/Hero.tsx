@@ -3,21 +3,21 @@ import React from 'react';
 function Hero() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <video className="absolute inset-0 w-full h-full object-cover z-[-1] animate-slow-motion" autoPlay loop muted>
+      <video className="absolute inset-0 w-full h-full object-cover z-[-1] animate-slow-motion" 
+      autoPlay loop muted>
         <source src="https://videos.pexels.com/video-files/7722624/7722624-uhd_1440_2560_25fps.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 flex flex-col items-center justify-between h-full px-4 py-10 sm:max-w-xl md:max-w-full md:px-24 md:py-36 lg:max-w-screen-xl lg:px-8">
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <div className="">
-            <div className="lg:max-w-xl lg:pr-5">
-              <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-blue-600 sm:text-8xl">
-                Drive sales <br />
-                to
-                <span className="my-1 inline-block border-b-8 border-blue-600 font-bold text-blue-600"> the sky </span>
-              </h2>
-              <p className="text-base text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque it.</p>
-            </div>
+            <div className="lg:max-w-xl lg:pr-5 ">
+              <p className="text-lg text-white">Based in Kenya.Operate worldwide</p>
+
+            
+              <p className="bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-4xl 
+              font-extrabold text-transparent sm:text-6xl">Empower your business
+with top-class software development</p>
             <div className="mt-10 flex flex-col items-center md:flex-row">
               <a href="/" className="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-blue-700 px-6 font-medium tracking-wide text-white shadow-md transition duration-200 md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-blue-800">Stream Now </a>
               <a href="/" aria-label="" className="underline-offset-2 inline-flex items-center font-semibold text-blue-600 underline transition-colors duration-200 hover:underline">Watch how it works</a>
