@@ -1,0 +1,28 @@
+.hero-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: slow-motion 60s linear infinite;
+  }
+  
+  @keyframes slow-motion {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  

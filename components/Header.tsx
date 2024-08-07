@@ -69,7 +69,7 @@ function Header() {
             </Link>
                         <button type="button" className="-m-2.5 rounded-md p-2.5 text-white" onClick={() => setMobileMenuOpen(false)}>
                             <span className="sr-only">Close Menu</span>
-                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                            <XMarkIcon className="h-6 w- text-gray-600" aria-hidden="true" />
                         </button>
                     </div>
                     <div className="mt-6 flow-root">
@@ -80,7 +80,7 @@ function Header() {
                                         <>
                                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg 
                                             py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">
-                                                Stays
+                                                About Us
                                                 {/* <ChevronDownIcon className={cn(open ? "rotate-180" : "", 
                                                     "h-5 w-5 flex-none")} aria-hidden="true" /> */}
                                             </Disclosure.Button>
@@ -96,14 +96,22 @@ function Header() {
                                         </>
                                     )}
                                 </Disclosure>
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">Flights</a>
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">Car Rentals</a>
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">Attractions</a>
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">Flight + Hotel</a>
+                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7
+                                 text-gray-600 hover:bg-blue-800">Cases</a>
+                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
+                                text-gray-600 hover:bg-blue-800">Services</a>
+                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7
+                                 text-gray-600 hover:bg-blue-800">Solutions</a>
+                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
+                                text-gray-600 hover:bg-blue-800">Clients</a>
+                                 <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
+                                text-gray-600 hover:bg-blue-800">Blog</a>
+                                 <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
+                                text-gray-600 hover:bg-blue-800">Contacts</a>
                             </div>
-                            <div className="py-6">
+                            {/* <div className="py-6">
                                 <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-600 hover:bg-blue-800">Log in</a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Dialog.Panel>
