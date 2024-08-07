@@ -11,11 +11,11 @@ import {
 function Hero() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <video className="absolute inset-0 w-full h-full object-cover z-[-1] animate-slow-motion" 
+      {/* <video className="absolute inset-0 w-full h-full object-cover z-[-1] animate-slow-motion" 
       autoPlay loop muted>
         <source src="https://videos.pexels.com/video-files/7722624/7722624-uhd_1440_2560_25fps.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="relative z-10 flex flex-col items-center justify-between h-full px-4 py-10 sm:max-w-xl md:max-w-full md:px-24 md:py-36 lg:max-w-screen-xl lg:px-8">
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <div className="">

@@ -5,18 +5,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main >
- 
-   <section className="snap-center">
-
-   <Hero />
-
-   </section>
-   <section className="snap-center">
-
-   <Next />
-
-   </section>
+    <main className="overflow-hidden">
+      <section className="snap-center m-0 p-0">
+        <Hero />
+      </section>
+      <section className="snap-center m-0 p-0 ">
+        <Next />
+      </section>
     </main>
   );
 }
+
